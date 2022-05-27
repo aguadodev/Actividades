@@ -25,6 +25,10 @@ public class Actividad {
     public Actividad() {
     }
 
+    public Actividad(String hackaton, String _1000, String _2000, int i) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
     
     
 

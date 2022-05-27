@@ -25,16 +25,20 @@ public class Actividades {
             new Persona("Marcos", "López", "03302418H", "03/03/1995", null, "mlopez@gmail.com"),
             new Persona("Alba", "Barros", "05202418H", "18/07/1987", null, "alba@gmail.com")));
 
-        System.out.println(personas.toString());
+        System.out.println(personas);
         
         ArrayList<Actividad> actividades = new ArrayList<>(Arrays.asList(        
             new Actividad("Hackaton", "20/06/2022 10:00", "20/06/2022 20:00", 100),
             new Actividad("Senderismo Banco de Pastoriza", "11/06/2022 10:00", "11/06/2022 140:00", 20),
             new Actividad("Picnic & Language Exchange", "28/05/2022 13:00", "28/05/2022 17:00", 3)));
      
-        System.out.println(actividades.toString());
-
+        System.out.println(actividades);
       
+        
+        System.out.println("MENU");
+        System.out.println("====");
+        System.out.println("");
+        
     }
 
     
